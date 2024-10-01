@@ -54,7 +54,7 @@ function Login() {
             <form className="bg-white p-6 rounded shadow-md space-y-4">
                 <input ref={usernameRef} type="text" placeholder="username..." className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"/>
                 <input ref={passwordRef} type="password" placeholder="password..." className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" />
-                <button onClick={handleRegister} className="w-full p-2 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400" > LOGI </button>
+                <button onClick={handleRegister} className="w-full p-2 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400" > LOGIN </button>
             </form>
         </div>
     );
